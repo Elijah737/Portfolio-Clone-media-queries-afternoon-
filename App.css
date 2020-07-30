@@ -112,6 +112,12 @@ p {
   background-color: rgb(241, 229, 120);
 }
 
+.circle:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px gray;
+  transition: .3s;
+}
+
 @media (max-width: 1000px){
 
   .greet {
