@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.hedNavContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.headNav {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding-top: 20px;
+  width: 80%;
+}
+
+.header {
+  background-image: url( https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg );
+  background-size: cover;
+  height:  800px;
+}
+
+.logo {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/navbar-logo.svg);
+  background-repeat: no-repeat;
+  width: 175px;
+  height: 50px;
+}
+
+.navigation span {
+  padding-left: 35px;
+}
+
+.navButt {
+  display: none;
+}
+
+.dropDown {
+  display: none;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.greet {
+  font-size: 35px;
+  font-style: oblique;
+}
+
+.meet {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.butt {
+  width: 225px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: goldenrod;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butt:hover{
+  background-color: rgb(182, 148, 63);
+  transition:.3s;
+}
+
+
+.servicesHead h1 {
+  padding-top: 70px;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.servicesHead h6 {
+  font-size: 14px;
+  margin: 10px;
+  font-style: oblique;
+  padding-bottom: 40px;
+}
+
+.circles {
+  width: 90%;
+  margin-left: 6.7%;
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  margin: 20px;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  font-size: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: rgb(241, 229, 120);
+}
+
+@media (max-width: 1000px){
+
+  .greet {
+    font-size: 16;
+  }
+
+  .headNav {
+    background-color: #f3f3f3;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .navigation{
+    display: none;
+  }
+
+  .dropDown {
+    display: initial;
+    width: 80px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: goldenrod;
+  }
+  .navButt{
+    /* display: initial; */
+    height: 150px;
+    width: 80vw;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 25px;
+  }
+
+}
+
+@media (max-width: 750px){
+
+  .circles {
+    flex-direction: column;
+  }
+
+  .greet {
+    font-size: 25px;
+  }
+} 
+
+
+@media (max-width: 333px){
+
+  .greet {
+    font-size: initial;
+  }
+
+  .headNav {
+    display: initial;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+  }
+}
+
+
+
+
+
+
+
+
+
+
